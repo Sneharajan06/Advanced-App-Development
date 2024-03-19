@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1914144a; /* Change background color as needed */
+  padding: 10px 20px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-center {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-center .navbar-links {
+  display: flex;
+}
+
+.navbar-center .navbar-links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.search-bar {
+  margin-right: 10px;
+}
+
+.search-bar input[type="text"] {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.navbar-right span {
+  margin-right: 10px;
+}
+
+.logo {
+  margin-right: 10px;
+}
