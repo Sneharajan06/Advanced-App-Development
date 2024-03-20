@@ -96,7 +96,7 @@ export default function Homepage() {
             <Link to="/product">
               {" "}
               <img
-                src="https://s3-prod.adage.com/s3fs-public/20230817_Bubble_3x2.jpg"
+                src="https://images.pexels.com/photos/3259600/pexels-photo-3259600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt=""
               />
             </Link>

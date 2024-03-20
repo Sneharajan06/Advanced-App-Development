@@ -9,6 +9,9 @@ import Watch from '../Components/Watch'
 import Sidebar from '../Components/Sidebar'
 import Data from '../Components/Data'
 import Customize from '../Components/Customize'
+import Profile from '../Components/Profile'
+import Cart from '../Components/Cart'
+
 
 function App() {
 
@@ -25,6 +28,8 @@ function App() {
         <Route path="/side" element={<Sidebar/>}/>
         <Route path='/data' element={<Data/>} />
         <Route path='/cus' element={<Customize/>} />
+        <Route path='/profile' element={<Profile/>} />
+        <Route path='/cart' element={<Cart/>} />
         
 
         </Routes>

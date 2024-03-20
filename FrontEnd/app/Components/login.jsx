@@ -26,7 +26,7 @@ export default function Login() {
         <Link to="/home"><input className="signup-btn" type="submit" value="LOGIN" /></Link>
       </form>
     <br/>
-   <Link to="/res" style={{textDecoration:'none'}}><p > Don't have an Account? Register Now!</p></Link>
+   <Link to="/reg" style={{textDecoration:'none'}}><p > Don't have an Account? Register Now!</p></Link>
     </div>
     </div>
     </div>

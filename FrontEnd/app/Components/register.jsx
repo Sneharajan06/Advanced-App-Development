@@ -1,5 +1,6 @@
 import React from 'react'
 import "./login.css"
+import { Link } from 'react-router-dom'
 
 export default function Register() {
 
@@ -32,7 +33,7 @@ export default function Register() {
         </div>
         <input className="signup-btn" type="submit" value="SIGNUP" />
       </form>
-    <p style={{textDecoration:'none'}} > Already Have an account? Login</p>
+   <Link to="/"> <p style={{textDecoration:'none'}} > Already Have an account? Login</p></Link>
       
     </div>
     </div>
