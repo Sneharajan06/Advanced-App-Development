@@ -31,7 +31,7 @@ export default function Register() {
           <i className="fa-solid fa-lock"></i>
           <input type="password" placeholder="Confirm Password" />
         </div>
-        <input className="signup-btn" type="submit" value="SIGNUP" />
+        <Link to="/">    <input className="signup-btn" type="submit" value="SIGNUP" /></Link>
       </form>
    <Link to="/"> <p style={{textDecoration:'none'}} > Already Have an account? Login</p></Link>
       

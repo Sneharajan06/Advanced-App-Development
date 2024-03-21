@@ -8,10 +8,10 @@ const Profile = () => {
       <div className="profile-details">
         <div className="profile-info">
           <p>
-            <strong>Name:</strong> Sachin
+            <strong>Name:</strong> Sneha
           </p>
           <p>
-            <strong>Email:</strong> sachin@gmail.com
+            <strong>Email:</strong> sneha@gmail.com
           </p>
           <p>
             <strong>Role:</strong> User

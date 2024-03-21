@@ -18,8 +18,7 @@ const Sidebar = () => {
       </div>
       <ul className="sidebar-menu">
         <Link to="/data"> <li>Dashboard</li></Link>
-       <Link to="/home"> <li>Account</li></Link>
-        <li> Settings</li>
+       <Link to="/profile"> <li>Account</li></Link>
        <Link to="/data"> <li> User Management</li></Link>
         <Link to="/"><li>Logout</li></Link>
       </ul>

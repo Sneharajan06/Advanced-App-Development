@@ -11,7 +11,7 @@ const Customize = () => {
     const [quantity, setQuantity] = useState(1);
 
     const handleAddToCart = () => {
-        // Logic to add customized product to cart
+        
     };
 
     return (
@@ -22,14 +22,14 @@ const Customize = () => {
                     <label>Select Product:</label>
                     <select value={selectedProduct} onChange={(e) => setSelectedProduct(e.target.value)}>
                         <option value="">Select</option>
-                        {/* Add product options here */}
+                        
                     </select>
                 </div>
                 <div className="form-group">
                     <label>Select Design:</label>
                     <select value={selectedDesign} onChange={(e) => setSelectedDesign(e.target.value)}>
                         <option value="">Select</option>
-                        {/* Add design options here */}
+                        
                     </select>
                 </div>
                 <div className="form-group">
@@ -44,7 +44,7 @@ const Customize = () => {
                     <label>Select Font:</label>
                     <select value={selectedFont} onChange={(e) => setSelectedFont(e.target.value)}>
                         <option value="">Select</option>
-                        {/* Add font options here */}
+                        
                     </select>
                 </div>
                 <div className="form-group">

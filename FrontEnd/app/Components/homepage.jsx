@@ -37,11 +37,11 @@ export default function Homepage() {
         <header className="showcase">
           <h2>Special Collection!</h2>
           <p>Discover unique gifts for every occasion.</p>
-          <a href="#" className="btn">
+          <Link to="/product">   <a href="#" className="btn"> 
             Explore Now <i className="fas fa-chevron-right" />
-          </a>
+          </a></Link> 
         </header>
-        {/* Updated Home cards */}
+       
         <section className="home-cards">
           <div>
             <Link to="/product">
@@ -112,11 +112,11 @@ export default function Homepage() {
         <header className="showcase change">
           <h2>Special Collection!</h2>
           <p>Discover unique gifts for every occasion.</p>
-          <a href="#" className="btn">
+          <Link to="/product">   <a href="#" className="btn">
             Explore Now <i className="fas fa-chevron-right" />
-          </a>
+          </a></Link> 
         </header>
-        {/* Updated Home cards */}
+      
         <section className="home-cards">
           <div>
             <Link to="/product">
@@ -177,9 +177,9 @@ export default function Homepage() {
             </Link>
             <h3>Organic whiteningCream</h3>
             <p>Nourish their skin with natural and organic cream.</p>
-            <a href="#">
+            <Link to="/product">  <a href="#">
               Shop Now <i className="fas fa-chevron-right" />
-            </a>
+            </a></Link> 
           </div>
         </section>
 
@@ -204,7 +204,7 @@ export default function Homepage() {
         </section>
       </div>
 
-      {/* Links Section */}
+      
       <section className="links">
         <div className="links-inner">
           <ul>
@@ -261,7 +261,7 @@ export default function Homepage() {
         </div>
       </section>
 
-      {/* Footer */}
+      
       <footer className="footer">
         <div className="footer-inner">
           <div>

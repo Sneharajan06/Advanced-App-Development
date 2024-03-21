@@ -15,9 +15,9 @@ export default function Navbar() {
           <input type="text" placeholder="Search..." />
         </div>
         <Link to="/home"><span className="nav-item">Home</span></Link>
-        <Link to="/cus"><span className="nav-item">My Orders</span></Link>
-       <Link to="/home" ><span className="nav-item">Wishlist</span></Link>
-        <Link to="/side"><span className="nav-item">Profile</span></Link>
+        <Link to="/cus"><span className="nav-item">Customize</span></Link>
+       <Link to="/cart" ><span className="nav-item">Cart</span></Link>
+        <Link to="/profile"><span className="nav-item">Profile</span></Link>
         <Link to="/">  <span className="nav-item">Logout</span></Link>
       </div>
     </div>
